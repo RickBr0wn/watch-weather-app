@@ -115,6 +115,9 @@
 		1167E54225F3E8BB00DD2377 /* watch-weather-app WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1167E56125F3E92400DD2377 /* Services */,
+				1167E56025F3E91A00DD2377 /* Models */,
+				1167E55F25F3E90A00DD2377 /* Views */,
 				1167E54325F3E8BB00DD2377 /* ContentView.swift */,
 				1167E54525F3E8BB00DD2377 /* watch_weather_appApp.swift */,
 				1167E54725F3E8BB00DD2377 /* ComplicationController.swift */,
@@ -131,6 +134,27 @@
 				1167E54C25F3E8BC00DD2377 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1167E55F25F3E90A00DD2377 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1167E56025F3E91A00DD2377 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1167E56125F3E92400DD2377 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
