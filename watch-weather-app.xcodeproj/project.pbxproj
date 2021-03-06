@@ -17,6 +17,11 @@
 		1167E54D25F3E8BC00DD2377 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1167E54C25F3E8BC00DD2377 /* Preview Assets.xcassets */; };
 		1167E56625F3EBCD00DD2377 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167E56525F3EBCD00DD2377 /* NetworkManager.swift */; };
 		1167E56B25F3EC3F00DD2377 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1167E56A25F3EC3F00DD2377 /* README.md */; };
+		1167E57025F3F60B00DD2377 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167E56F25F3F60B00DD2377 /* WeatherResponse.swift */; };
+		1167E57825F3FC0000DD2377 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167E57725F3FC0000DD2377 /* WeatherModel.swift */; };
+		1167E57D25F3FCDF00DD2377 /* WeatherCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167E57C25F3FCDF00DD2377 /* WeatherCoordinates.swift */; };
+		1167E58225F3FD6600DD2377 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167E58125F3FD6600DD2377 /* WeatherManager.swift */; };
+		1167E58725F4005600DD2377 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167E58625F4005600DD2377 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,11 @@
 		1167E54E25F3E8BC00DD2377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1167E56525F3EBCD00DD2377 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1167E56A25F3EC3F00DD2377 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1167E56F25F3F60B00DD2377 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		1167E57725F3FC0000DD2377 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		1167E57C25F3FCDF00DD2377 /* WeatherCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCoordinates.swift; sourceTree = "<group>"; };
+		1167E58125F3FD6600DD2377 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		1167E58625F4005600DD2377 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +161,9 @@
 		1167E56025F3E91A00DD2377 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1167E56F25F3F60B00DD2377 /* WeatherResponse.swift */,
+				1167E57725F3FC0000DD2377 /* WeatherModel.swift */,
+				1167E57C25F3FCDF00DD2377 /* WeatherCoordinates.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				1167E56525F3EBCD00DD2377 /* NetworkManager.swift */,
+				1167E58125F3FD6600DD2377 /* WeatherManager.swift */,
+				1167E58625F4005600DD2377 /* LocationManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -292,8 +307,13 @@
 			files = (
 				1167E56625F3EBCD00DD2377 /* NetworkManager.swift in Sources */,
 				1167E54625F3E8BB00DD2377 /* watch_weather_appApp.swift in Sources */,
+				1167E58225F3FD6600DD2377 /* WeatherManager.swift in Sources */,
 				1167E54425F3E8BB00DD2377 /* ContentView.swift in Sources */,
 				1167E54825F3E8BB00DD2377 /* ComplicationController.swift in Sources */,
+				1167E57825F3FC0000DD2377 /* WeatherModel.swift in Sources */,
+				1167E57025F3F60B00DD2377 /* WeatherResponse.swift in Sources */,
+				1167E57D25F3FCDF00DD2377 /* WeatherCoordinates.swift in Sources */,
+				1167E58725F4005600DD2377 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,16 +24,16 @@ final class NetworkManager<T: Codable> {
         return
       }
       // check for the 'response', handling the error as before
+      // if present, the response is casted to an HTTPURLResponse so then we can check for the statusCode
       guard let httpResponse = response as? HTTPURLResponse else {
         completion(.failure(.badResponse))
         return
       }
-      // check that the returned status code is 200, otherwise there has been a server error and it must be handled as before
+      // check that the returned status code is 200, otherwise there has been a server error. Handle as before
       guard httpResponse.statusCode == 200 else {
         completion(.failure(.wrongStatusCode(code: httpResponse.statusCode)))
         return
       }
-      // there is currently no error, and a response with the status code of 200
       // check the data exists, handle any errors as before
       guard let data = data else {
         completion(.failure(.emptyData))
@@ -43,7 +43,7 @@ final class NetworkManager<T: Codable> {
       do {
         let json = try JSONDecoder().decode(T.self, from: data)
         // URLSession (which is asynchronous) is always called in a background thread to prevnt UI blocking
-        // bring now to the main queue
+        // bring now to the 'main' queue
         DispatchQueue.main.async {
           completion(.success(json))
         }
