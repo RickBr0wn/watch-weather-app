@@ -15,6 +15,8 @@
 		1167E54825F3E8BB00DD2377 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167E54725F3E8BB00DD2377 /* ComplicationController.swift */; };
 		1167E54A25F3E8BC00DD2377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1167E54925F3E8BC00DD2377 /* Assets.xcassets */; };
 		1167E54D25F3E8BC00DD2377 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1167E54C25F3E8BC00DD2377 /* Preview Assets.xcassets */; };
+		1167E56625F3EBCD00DD2377 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167E56525F3EBCD00DD2377 /* NetworkManager.swift */; };
+		1167E56B25F3EC3F00DD2377 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1167E56A25F3EC3F00DD2377 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		1167E54925F3E8BC00DD2377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1167E54C25F3E8BC00DD2377 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1167E54E25F3E8BC00DD2377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1167E56525F3EBCD00DD2377 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1167E56A25F3EC3F00DD2377 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 				1167E54925F3E8BC00DD2377 /* Assets.xcassets */,
 				1167E54E25F3E8BC00DD2377 /* Info.plist */,
 				1167E54B25F3E8BC00DD2377 /* Preview Content */,
+				1167E56A25F3EC3F00DD2377 /* README.md */,
 			);
 			path = "watch-weather-app WatchKit Extension";
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 		1167E56125F3E92400DD2377 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				1167E56525F3EBCD00DD2377 /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -271,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1167E56B25F3EC3F00DD2377 /* README.md in Resources */,
 				1167E54D25F3E8BC00DD2377 /* Preview Assets.xcassets in Resources */,
 				1167E54A25F3E8BC00DD2377 /* Assets.xcassets in Resources */,
 			);
@@ -283,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1167E56625F3EBCD00DD2377 /* NetworkManager.swift in Sources */,
 				1167E54625F3E8BB00DD2377 /* watch_weather_appApp.swift in Sources */,
 				1167E54425F3E8BB00DD2377 /* ContentView.swift in Sources */,
 				1167E54825F3E8BB00DD2377 /* ComplicationController.swift in Sources */,
