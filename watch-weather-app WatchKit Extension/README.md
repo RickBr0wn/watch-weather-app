@@ -5,7 +5,7 @@
 1. Set the privacy options.
       Add these 2 properties to the info.plist file:
         `Privacy - Location Always and When In Use Usage Description`
-        `Privacy - Location Always Usage Description`
+        `Privacy - Location When In Use Usage Description`
       A descripter is used to explain to the user why.
         eg: "Your location is required to give you accurate weather data for your area."
 
@@ -23,4 +23,5 @@
   5. Create a locationManager to provide the coordinates to the weatherManager.
         `LocationManager`
 
-  6. 
+  6. Create a UI
+        `OutlineView`
